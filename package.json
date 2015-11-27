@@ -1,6 +1,6 @@
 {
   "name": "get-font-styles",
-  "description": "",
+  "description": "Pass in an element and get an object with the element and the font related styles inside an array",
   "main": "index.js",
   "directories": {
     "test": "test"
