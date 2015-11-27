@@ -24,7 +24,8 @@ document.addEventListener('click', function(e) {
 
   console.log(elementWithStyles);
 
-  //{ element: <div id="test1" style="font-family: Helvetica; font-size: 16px; font-weight: 400; font-style: normal;"></div>,
+  /*
+    { element: <div id="test1" style="font-family: Helvetica; font-size: 16px; font-weight: 400; font-style: normal;"></div>,
       styles: [
         {'font-family': 'Helvetica'},
         {'font-size': '16px'},
@@ -32,4 +33,5 @@ document.addEventListener('click', function(e) {
         {'font-style': 'normal'}
       ]
     }
+  */
 ```
