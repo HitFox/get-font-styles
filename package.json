@@ -1,0 +1,30 @@
+{
+  "name": "get-font-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "computed-style": "^0.3.0"
+  },
+  "devDependencies": {
+    "jsdom": "^7.1.0",
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HitFox/get-font-styles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HitFox/get-font-styles/issues"
+  },
+  "homepage": "https://github.com/HitFox/get-font-styles#readme"
+}
