@@ -1,6 +1,5 @@
 {
   "name": "get-font-styles",
-  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -10,15 +9,18 @@
     "computed-style": "^0.3.0"
   },
   "devDependencies": {
+    "eslint": "^1.10.1",
     "jsdom": "^7.1.0",
+    "semantic-release": "^4.3.5",
     "tape": "^4.2.2"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "eslint *.js test/*.js && tape test/*.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HitFox/get-font-styles.git"
+    "url": "https://github.com/HitFox/get-font-styles.git"
   },
   "keywords": [],
   "author": "",
